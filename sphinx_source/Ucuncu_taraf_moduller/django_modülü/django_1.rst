@@ -94,7 +94,7 @@ Bir uygulama oluşturmak için komut satırında `manage.py` ile aynı dizine ge
 
 	python manage.py startapp polls
 
-`polls` isimli bir dizin oluşturulacak. Bakaklım içinde neler var::
+`polls` isimli bir dizin oluşturulacak. Bakalım içinde neler var::
 
 	polls/
 	    __init__.py
@@ -117,7 +117,7 @@ Hadi yazmaya başlayalım. Şimdi `polls/views.py` açın ve şu kodları yazın
 	def index(request):
 	    return HttpResponse("Hello, world. You're at the polls index.")
 
-Bu Django'da yazılabilecek en basit view. Artık bu view ı çağırabilmek için bir URL haritasına ihtiyacımız var ve URL haritası için de URL şemasına.
+Bu Django'da yazılabilecek en basit view. Artık bu view'ı çağırabilmek için bir URL haritasına ihtiyacımız var ve URL haritası için de URL şemasına.
 polls dizininde `urls.py` isimli bir dosya oluşturarak uygulamanın URL şemasını da oluşturmuş oluruz.(Dosya Gezgininden kendiniz urls.py isimli bir python modülü oluşturun.)  Uygulama dizini son olarak şöyle görünmeli::
 
 	polls/
